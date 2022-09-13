@@ -1,0 +1,7 @@
+input:checked ~ .circle {
+  transform: translateX(100%);
+}
+
+input:checked ~ .track {
+  @apply bg-primary-400;
+}
